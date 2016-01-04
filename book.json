@@ -1,0 +1,20 @@
+{
+    "variables": {
+        "title": "Pagurian Design",
+        "theme": "theme-deepblue",
+        "copyright": "Copyright 2015 HYPERS"
+    },
+    "collapsible_menu":true,
+    "level_number":false,
+    "links": {
+        "gitbook": false,
+        "sharing": {
+            "all":false,
+            "vk": false,
+            "facebook": true,
+            "twitter": true,
+            "google": true,
+            "weibo": true
+        }
+    }
+}
