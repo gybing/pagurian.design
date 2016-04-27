@@ -1,0 +1,156 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'hbook-cli', '-g' ]
+2 info using npm@2.11.2
+3 info using node@v0.12.5
+4 verbose install initial load of /usr/local/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+6 silly cache add args [ 'hbook-cli', null ]
+7 verbose cache add spec hbook-cli
+8 silly cache add parsed spec { raw: 'hbook-cli',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'hbook-cli',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: '*',
+8 silly cache add   type: 'range' }
+9 silly addNamed hbook-cli@*
+10 verbose addNamed "*" is a valid semver range for hbook-cli
+11 silly addNameRange { name: 'hbook-cli', range: '*', hasData: false }
+12 silly mapToRegistry name hbook-cli
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/hbook-cli
+16 verbose addNameRange registry:https://registry.npmjs.org/hbook-cli not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/hbook-cli
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 11:32:55
+20 verbose request id 5706db136a041e93
+21 verbose etag "7B0FP6MBX281X5POMVMT2DN9Y"
+22 http request GET https://registry.npmjs.org/hbook-cli
+23 http 304 https://registry.npmjs.org/hbook-cli
+24 silly get cb [ 304,
+24 silly get   { date: 'Tue, 05 Jan 2016 03:32:56 GMT',
+24 silly get     via: '1.1 varnish',
+24 silly get     'cache-control': 'max-age=300',
+24 silly get     etag: '"7B0FP6MBX281X5POMVMT2DN9Y"',
+24 silly get     age: '17',
+24 silly get     connection: 'keep-alive',
+24 silly get     'x-served-by': 'cache-nrt6131-NRT',
+24 silly get     'x-cache': 'HIT',
+24 silly get     'x-cache-hits': '1',
+24 silly get     'x-timer': 'S1451964776.007886,VS0,VE0',
+24 silly get     vary: 'Accept' } ]
+25 verbose etag https://registry.npmjs.org/hbook-cli from cache
+26 verbose get saving hbook-cli to /Users/leighton/.npm/registry.npmjs.org/hbook-cli/.cache.json
+27 silly addNameRange number 2 { name: 'hbook-cli', range: '*', hasData: true }
+28 silly addNameRange versions [ 'hbook-cli',
+28 silly addNameRange   [ '1.0.0',
+28 silly addNameRange     '1.0.1',
+28 silly addNameRange     '1.0.2',
+28 silly addNameRange     '1.0.3',
+28 silly addNameRange     '1.0.4',
+28 silly addNameRange     '1.0.5',
+28 silly addNameRange     '1.0.6',
+28 silly addNameRange     '1.0.7',
+28 silly addNameRange     '1.0.8',
+28 silly addNameRange     '1.0.9',
+28 silly addNameRange     '1.0.10',
+28 silly addNameRange     '1.0.11',
+28 silly addNameRange     '1.0.12',
+28 silly addNameRange     '1.0.13',
+28 silly addNameRange     '1.0.14',
+28 silly addNameRange     '1.0.15' ] ]
+29 silly addNamed hbook-cli@1.0.15
+30 verbose addNamed "1.0.15" is a plain semver version for hbook-cli
+31 silly cache afterAdd hbook-cli@1.0.15
+32 verbose afterAdd /Users/leighton/.npm/hbook-cli/1.0.15/package/package.json not in flight; writing
+33 verbose afterAdd /Users/leighton/.npm/hbook-cli/1.0.15/package/package.json written
+34 silly install resolved [ { name: 'hbook-cli',
+34 silly install resolved     version: '1.0.15',
+34 silly install resolved     homepage: 'https://www.npmjs.com/package/hbook',
+34 silly install resolved     description: 'CLI to generate books and documentation using hbook',
+34 silly install resolved     main: 'bin/hbook.js',
+34 silly install resolved     dependencies:
+34 silly install resolved      { q: '1.4.1',
+34 silly install resolved        lodash: '3.10.1',
+34 silly install resolved        semver: '5.0.1',
+34 silly install resolved        npmi: '1.0.1',
+34 silly install resolved        tmp: '0.0.27',
+34 silly install resolved        commander: '2.8.1',
+34 silly install resolved        optimist: '0.6.1',
+34 silly install resolved        'fs-extra': '0.24.0',
+34 silly install resolved        'bash-color': '0.0.3',
+34 silly install resolved        npm: '2.14.8',
+34 silly install resolved        'user-home': '2.0.0' },
+34 silly install resolved     devDependencies: { mocha: '2.3.3', should: '7.1.0', hbook: '1.0.3' },
+34 silly install resolved     scripts: { test: 'mocha --reporter spec --recursive --bail' },
+34 silly install resolved     repository:
+34 silly install resolved      { type: 'git',
+34 silly install resolved        url: 'git+https://github.com/simonguo/hbook-cli.git' },
+34 silly install resolved     author: { name: 'FriendCode Inc.', email: 'contact@gitbook.com' },
+34 silly install resolved     license: 'Apache-2.0',
+34 silly install resolved     bugs: { url: 'https://github.com/simonguo/hbook-cli/issues' },
+34 silly install resolved     bin: { hbook: './bin/hbook.js' },
+34 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+34 silly install resolved     gitHead: '4d6a006808faa964577254c765a1f031294372d6',
+34 silly install resolved     _id: 'hbook-cli@1.0.15',
+34 silly install resolved     _shasum: 'a7ab70456d6580087df35ef5c2ae413c8e9915c5',
+34 silly install resolved     _from: 'hbook-cli@*',
+34 silly install resolved     _npmVersion: '2.14.7',
+34 silly install resolved     _nodeVersion: '4.2.1',
+34 silly install resolved     _npmUser: { name: 'simonguo', email: 'simonguo.2009@gmail.com' },
+34 silly install resolved     dist:
+34 silly install resolved      { shasum: 'a7ab70456d6580087df35ef5c2ae413c8e9915c5',
+34 silly install resolved        tarball: 'http://registry.npmjs.org/hbook-cli/-/hbook-cli-1.0.15.tgz' },
+34 silly install resolved     maintainers: [ [Object] ],
+34 silly install resolved     directories: {},
+34 silly install resolved     _resolved: 'https://registry.npmjs.org/hbook-cli/-/hbook-cli-1.0.15.tgz',
+34 silly install resolved     readme: 'ERROR: No README data found!' } ]
+35 info install hbook-cli@1.0.15 into /usr/local/lib
+36 info installOne hbook-cli@1.0.15
+37 verbose installOne of hbook-cli to /usr/local/lib not in flight; installing
+38 verbose lock using /Users/leighton/.npm/_locks/hbook-cli-bd15afbab5c179b9.lock for /usr/local/lib/node_modules/hbook-cli
+39 silly install write writing hbook-cli 1.0.15 to /usr/local/lib/node_modules/hbook-cli
+40 verbose unbuild lib/node_modules/hbook-cli
+41 silly gentlyRm /usr/local/lib/node_modules/hbook-cli is being purged from base /usr/local
+42 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/hbook-cli
+43 verbose tar unpack /Users/leighton/.npm/hbook-cli/1.0.15/package.tgz
+44 verbose tar unpacking to /usr/local/lib/node_modules/hbook-cli
+45 silly gentlyRm /usr/local/lib/node_modules/hbook-cli is being purged
+46 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/hbook-cli
+47 silly gunzTarPerm modes [ '755', '644' ]
+48 error tar.unpack untar error /Users/leighton/.npm/hbook-cli/1.0.15/package.tgz
+49 verbose unlock done using /Users/leighton/.npm/_locks/hbook-cli-bd15afbab5c179b9.lock for /usr/local/lib/node_modules/hbook-cli
+50 verbose fstream_path /usr/local/lib/node_modules/hbook-cli
+51 verbose fstream_type Directory
+52 verbose fstream_class DirWriter
+53 verbose stack Error: EACCES, mkdir '/usr/local/lib/node_modules/hbook-cli'
+53 verbose stack     at Error (native)
+54 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25
+54 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53
+54 verbose fstream_stack FSReqWrap.oncomplete (fs.js:95:15)
+55 verbose cwd /Users/leighton/Documents/pagurian.design
+56 error Darwin 13.4.0
+57 error argv "node" "/usr/local/bin/npm" "install" "hbook-cli" "-g"
+58 error node v0.12.5
+59 error npm  v2.11.2
+60 error path /usr/local/lib/node_modules/hbook-cli
+61 error code EACCES
+62 error errno -13
+63 error Error: EACCES, mkdir '/usr/local/lib/node_modules/hbook-cli'
+63 error     at Error (native)
+63 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/hbook-cli']
+63 error   errno: -13,
+63 error   code: 'EACCES',
+63 error   path: '/usr/local/lib/node_modules/hbook-cli',
+63 error   fstream_type: 'Directory',
+63 error   fstream_path: '/usr/local/lib/node_modules/hbook-cli',
+63 error   fstream_class: 'DirWriter',
+63 error   fstream_stack:
+63 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25',
+63 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53',
+63 error      'FSReqWrap.oncomplete (fs.js:95:15)' ] }
+64 error Please try running this command again as root/Administrator.
+65 verbose exit [ -13, true ]
+66 verbose unbuild lib/node_modules/hbook-cli
+67 silly gentlyRm /usr/local/lib/node_modules/hbook-cli is being purged from base /usr/local
+68 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/hbook-cli
